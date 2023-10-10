@@ -48,6 +48,7 @@ const DesktopNavigation = () => {
         </div>
         {/* display hamburger menu */}
       </nav>
+      {/* hero section */}
     </div>
   );
 };
