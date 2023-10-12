@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.svg';
+import fb from '../assets/images/icon-facebook.svg';
+import twitter from '../assets/images/icon-twitter.svg';
+import pinterest from '../assets/images/icon-pinterest.svg';
+import instagram from '../assets/images/icon-instagram.svg';
 
 const Footer = () => {
   return (
@@ -90,7 +94,21 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/*  */}
+        {/* social container */}
+        <div className="flex space-x-6">
+          <Link to="#">
+            <img src={fb} alt="" className="ficon" />
+          </Link>
+          <Link to="#">
+            <img src={twitter} alt="" className="ficon" />
+          </Link>
+          <Link to="#">
+            <img src={pinterest} alt="" className="ficon" />
+          </Link>
+          <Link to="#">
+            <img src={instagram} alt="" className="ficon" />
+          </Link>
+        </div>
       </div>
     </footer>
   );
