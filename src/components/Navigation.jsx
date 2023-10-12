@@ -44,11 +44,19 @@ const DesktopNavigation = () => {
               Sign Up
             </NavLink>
           </div>
-          {/* todo hamburger menu */}
+          {/* hamburger buttons */}
+          <button
+            id="menu-btn"
+            type="button"
+            className="block hamburger lg:hidden focus:outline-none"
+          >
+            <span className="hamburger-top"></span>
+            <span className="hamburger-middle"></span>
+            <span className="hamburger-bottom"></span>
+          </button>
         </div>
-        {/* display hamburger menu */}
+        {/* mobile menu */}
       </nav>
-      {/* hero section */}
     </div>
   );
 };
