@@ -1,6 +1,7 @@
 import Hero from '../components/Hero';
 import Shorten from '../components/Shorten';
 import Statistics from '../components/Statistics';
+import Cta from '../components/Cta';
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Shorten />
       <Statistics />
+      <Cta />
     </>
   );
 };
