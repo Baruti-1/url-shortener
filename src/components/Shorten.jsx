@@ -44,7 +44,7 @@ const Shorten = () => {
 
       const KEY = import.meta.env.VITE_API;
 
-      fetch('https://shrtlnk.dev/api/v2/link', {
+      fetch('/api', {
         method: 'POST',
         headers: {
           'api-key': KEY,
